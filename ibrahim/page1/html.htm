@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="shortcut icon" type="image" href="icon.png">
+	<script src="java.js"></script>
+	<title>
+		Bakroo-Login
+	</title>
+</head>
+<body>
+
+<div>
+<img  id="Background" src="background.jpg">
+		
+	<div id="leftC" class="ceanter">		
+		</div>
+		<video class="video"  width="520px" height="450" autoplay controls loop >
+			<source  src="leftV.mp4" type="video/mp4">
+
+		</video>
+
+    <div id="rightC" class="ceanter">
+    	<center >
+    		
+    	<h1>Log in</h1>
+    	<p class="upperText"><i> Please insert your information correctly </i></p>
+    	<div id="formDIV">
+    		<form>
+
+     		<input type="text" id="useremail" class="elemnt" placeholder="Your Email ex: abc@efg.com">
+
+    			<br/><br/>
+
+    		<input type="password" id="userpassword" class="elemnt" placeholder="Password" >
+
+    			 <br/><br/>
+
+    	</form>	
+    		
+    	</div>
+    	
+
+
+
+    	 <div id="button">
+    	 	 <button class="inputs" onclick="loginMetod()" id="user_sub" ><i><b>Log in</b></i></button>
+    	     <button class="inputs"  id="user_reset"><i><b>Reset</b></i></button>
+    	 	
+    	 </div>
+    	
+    	<div class="lowerText">
+    		 <p>New member? <a href="home" id="j_fam" title="Sing up" target="_blank" >Join our family.</a></p>
+    		 <p><a href="home" id="f_pass" title="Contact support" target="_blank" >Forgot password?</a></p>
+    		
+    	</div>
+
+    	</center>
+
+
+
+
+		</div>
+		
+	
+
+</div>
+
+<form action="page2.htm">
+	<script type="text/javascript" >
+	function loginMethod(user_email) {
+		if(user_email=="admin@gmail.com"){
+			eval("alert('aaaaaaaa')");
+		}
+
+	}
+	
+</script>
+	
+
+
+</form>
+</body>
+</html>
